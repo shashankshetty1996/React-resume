@@ -1,14 +1,14 @@
-import React from "react";
-import CONSTANTS from "../../constants";
+import React from 'react';
+import CONSTANTS from '../../constants';
 
 const Header = () => {
   const { TITLE, WORK, PLAN, FOLLOW_UP } = CONSTANTS.HEADER;
   return (
-    <Header>
+    <header>
       <p>
-        {TITLE} {WORK} {PLAN} {FOLLOW_UP}
+        {TITLE} {WORK} {PLAN} {FOLLOW_UP}{' '}
       </p>
-    </Header>
+    </header>
   );
 };
 

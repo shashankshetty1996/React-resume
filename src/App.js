@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 // import "./App.scss";
 
 // Layout importing
-import SideBar from "./layout/SideBar/SideBar";
-import MainContent from "./layout/MainContent/MainContent";
+import SideBar from './layout/SideBar/SideBar';
+import MainContent from './layout/MainContent/MainContent';
 
-import Header from "./components/Header/Header";
+import Header from './components/Header/Header';
 
 function App() {
   return (
