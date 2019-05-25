@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+
+import { DateInfo, Header } from '../../common';
 
 const Experience = () => {
   return (
-    <div>
+    <section className="my-4">
       {/* Add all experience here. */}
-    </div>
-  )
-}
+      <Header title="Experience" />
+      <DateInfo />
+    </section>
+  );
+};
 
-export default Experience
+export default Experience;
