@@ -1,5 +1,11 @@
 @import './variable';
 
+body {
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.25;
+}
+
 .App {
   margin: $zero;
 }
