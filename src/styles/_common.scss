@@ -5,8 +5,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Roboto', sans-serif;
   line-height: 1.25;
+  font-size: 14px;
 }
 
-.App {
-  margin: $zero;
+.row {
+  margin-bottom: $zero;
 }
