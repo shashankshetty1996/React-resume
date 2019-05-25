@@ -4,21 +4,20 @@
   .date-section {
     font-style: italic;
     font-weight: 100;
+    font-size: 12px;
   }
   .title {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 8px;
   }
   .sub-title {
     font-style: italic;
-    font-size: 14px;
     line-height: 17px;
     margin: 2px $zero;
   }
   .info-list-item {
     position: relative;
-    font-size: 14px;
     line-height: 21px;
     padding: 2px $zero;
     &:before {

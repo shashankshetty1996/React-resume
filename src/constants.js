@@ -12,7 +12,7 @@ const constant = {
     {
       id: 1,
       TITLE: 'Software Engineer',
-      fromDate: 'August 2018',
+      fromDate: 'Aug 2018',
       toDate: 'present',
       subTitle: 'Y Media Labs, Front end Developer.',
       infos: [
@@ -23,9 +23,9 @@ const constant = {
     },
     {
       id: 2,
-      TITLE: 'Senior Event & Training Manager and Tech Lead',
-      fromDate: 'March 2017',
-      toDate: 'July 2018',
+      TITLE: 'Senior Event & Training Head and Tech Lead',
+      fromDate: 'Mar 2017',
+      toDate: 'Jul 2018',
       subTitle: 'Finite Loop (Freelancing)',
       infos: [
         'Designed architecture and database modelling for projects such as smart campus, exam evaluation portal and fest registration portal.',
