@@ -1,0 +1,34 @@
+@import '../../styles/variable';
+
+.date-info {
+  .date-section {
+    font-style: italic;
+    font-weight: 100;
+  }
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  .sub-title {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 2px $zero;
+  }
+  .info-list-item {
+    position: relative;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 2px $zero;
+    &:before {
+      content: '*';
+      font-size: 28px;
+      position: relative;
+      top: 10px;
+      left: $zero;
+      padding-right: 5px;
+      box-sizing: border-box;
+    }
+  }
+}
