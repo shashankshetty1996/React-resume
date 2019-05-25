@@ -1,0 +1,9 @@
+@import '../../styles/variable';
+
+.header {
+  font-weight: bold;
+  font-size: $header-size;
+  border-top: $header-border;
+  border-bottom: $header-border;
+  color: $header-color;
+}
