@@ -5,19 +5,19 @@ import './App.scss';
 import SideBar from './layout/SideBar/SideBar';
 import MainContent from './layout/MainContent/MainContent';
 
-import Summary from './components/Summary/Summary';
-import Experience from './components/Experience/Experience';
+import { Education, Experience, Summary } from './components';
 
-function App() {
+const App = () => {
   return (
     <div className="App row">
-      <SideBar className="col s2 side-bar py-2">Side bar</SideBar>
-      <MainContent className="col s10 main-contain py-2">
+      <SideBar className="side-bar p-1">Side bar</SideBar>
+      <MainContent className="main-contain p-1">
         <Summary />
         <Experience />
+        <Education />
       </MainContent>
     </div>
   );
-}
+};
 
 export default App;

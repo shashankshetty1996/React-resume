@@ -1,1 +1,34 @@
 @import './styles/main';
+
+// A4 sheet size
+.App {
+  display: flex;
+  min-height: 100vh;
+  min-width: 958px;
+
+  .side-bar {
+    display: inline-block;
+    width: 20%;
+    background-color: $header-color;
+    color: $white-color;
+  }
+
+  .main-contain {
+    display: inline-block;
+    width: 80%;
+    background-color: $body-bg;
+    color: $primary-color;
+  }
+
+  &.A4 {
+    width: 595px;
+
+    .side-bar {
+      width: 30%;
+    }
+
+    .main-contain {
+      width: 70%;
+    }
+  }
+}
