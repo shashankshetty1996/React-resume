@@ -1,10 +1,18 @@
 @import '../../styles/variable';
 
 .date-info {
+  display: flex;
   .date-section {
+    display: inline-block;
+    width: 15%;
     font-style: italic;
     font-weight: 100;
     font-size: 12px;
+  }
+  .info-section {
+    display: inline-block;
+    width: 85%;
+    padding-left: 8px;
   }
   .title {
     font-size: 20px;
@@ -20,6 +28,7 @@
     position: relative;
     line-height: 21px;
     padding: 2px $zero;
+    text-align: justify;
     &:before {
       content: '*';
       font-size: 28px;

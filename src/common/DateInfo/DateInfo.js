@@ -7,12 +7,12 @@ const DateInfo = props => {
   const { fromDate, toDate, title, subTitle, infos } = props;
   return (
     <article className="date-info row py-1">
-      <div className="col s3 date-section">
+      <div className="date-section">
         <span className="from-date">{fromDate}</span>
         <span> - </span>
         <span className="to-date">{toDate}</span>
       </div>
-      <div className="col s9">
+      <div className="info-section">
         <h1 className="title">{title}</h1>
         {subTitle !== '' && <h4 className="sub-title">{subTitle}</h4>}
         <ul className="info-list">
