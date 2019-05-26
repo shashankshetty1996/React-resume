@@ -8,7 +8,6 @@ const Experience = () => {
   const { EXPERIENCE } = CONSTANTS;
   return (
     <section className="my-4">
-      {/* Add all experience here. */}
       <Header title="Experience" />
       {EXPERIENCE.map(experience => (
         <DateInfo
