@@ -1,7 +1,7 @@
 const constant = {
   HEADER: {
     TITLE:
-      'Hardworking front end developer with a flair for creating elegant solutions in the best efficient way.',
+      'Passionate front end developer with a flair for creating elegant solutions in the best efficient way.',
     WORK:
       'Developed Admin portal, OAuth application, Event Registration portal, E-branding website and Smart Campus Application.',
     PLAN:
