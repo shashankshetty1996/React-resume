@@ -1,7 +1,8 @@
 @import '../../styles/variable';
 
 .side-bar {
+  display: inline-block;
+  width: 30%;
   background-color: $header-color;
   color: $white-color;
-  height: 100vh;
 }

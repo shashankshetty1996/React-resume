@@ -11,8 +11,8 @@ import Experience from './components/Experience/Experience';
 function App() {
   return (
     <div className="App row">
-      <SideBar className="col s3 side-bar py-2">Side bar</SideBar>
-      <MainContent className="col s9 main-contain py-2">
+      <SideBar className="side-bar p-1">Side bar</SideBar>
+      <MainContent className="main-contain p-1">
         <Summary />
         <Experience />
       </MainContent>
