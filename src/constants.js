@@ -11,7 +11,7 @@ const constant = {
   EXPERIENCE: [
     {
       id: 1,
-      TITLE: 'Software Engineer',
+      title: 'Software Engineer',
       fromDate: 'Aug 2018',
       toDate: 'present',
       subTitle: 'Y Media Labs, Front end Developer.',
@@ -23,7 +23,7 @@ const constant = {
     },
     {
       id: 2,
-      TITLE: 'Senior Event & Training Head and Tech Lead',
+      title: 'Senior Event & Training Head and Tech Lead',
       fromDate: 'Mar 2017',
       toDate: 'Jul 2018',
       subTitle: 'Finite Loop (Freelancing)',
@@ -32,6 +32,11 @@ const constant = {
         'Trained over 140+ students with various technology such as HTML, CSS, JavaScript, AngularJS, NodeJs, etc.',
         'Organized and participated in various event such as Introduction to web technology, Hands on session on Software life cycle using DevOps technologies.'
       ]
+    }
+  ],
+  EDUCATION: [
+    {
+      id: 1
     }
   ]
 };

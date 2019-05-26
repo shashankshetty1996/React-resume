@@ -12,7 +12,7 @@ const Experience = () => {
       {EXPERIENCE.map(experience => (
         <DateInfo
           key={experience.id}
-          title={experience.TITLE}
+          title={experience.title}
           fromDate={experience.fromDate}
           toDate={experience.toDate}
           subTitle={experience.subTitle}
