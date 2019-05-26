@@ -5,8 +5,7 @@ import './App.scss';
 import SideBar from './layout/SideBar/SideBar';
 import MainContent from './layout/MainContent/MainContent';
 
-import Summary from './components/Summary/Summary';
-import Experience from './components/Experience/Experience';
+import { Education, Experience, Summary } from './components';
 
 function App() {
   return (
@@ -15,6 +14,7 @@ function App() {
       <MainContent className="main-contain p-1">
         <Summary />
         <Experience />
+        <Education />
       </MainContent>
     </div>
   );

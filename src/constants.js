@@ -36,7 +36,23 @@ const constant = {
   ],
   EDUCATION: [
     {
-      id: 1
+      id: 1,
+      title: 'N.M.A.M Institute of Technology, Nitte, karnataka',
+      fromDate: 'Aug 2014',
+      toDate: 'May 2018',
+      subTitle: 'B.E in Computer Science'
+    },
+    {
+      id: 2,
+      title: 'Mahesh PU College, Karnataka',
+      fromDate: 'Jun 2012',
+      toDate: 'May 2014'
+    },
+    {
+      id: 3,
+      title: 'GM Vidyaniketan Public School, Karnataka',
+      fromDate: 'Jun 2009',
+      toDate: 'Mar 2012'
     }
   ]
 };
