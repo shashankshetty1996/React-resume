@@ -7,7 +7,7 @@ import MainContent from './layout/MainContent/MainContent';
 
 import { Education, Experience, Summary } from './components';
 
-function App() {
+const App = () => {
   return (
     <div className="App row">
       <SideBar className="side-bar p-1">Side bar</SideBar>
@@ -18,6 +18,6 @@ function App() {
       </MainContent>
     </div>
   );
-}
+};
 
 export default App;
