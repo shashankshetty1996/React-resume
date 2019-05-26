@@ -32,6 +32,19 @@ const constant = {
         'Trained over 140+ students with various technology such as HTML, CSS, JavaScript, AngularJS, NodeJs, etc.',
         'Organized and participated in various event such as Introduction to web technology, Hands on session on Software life cycle using DevOps technologies.'
       ]
+    },
+    {
+      id: 3,
+      title: 'Software Developer',
+      fromDate: 'May 2016',
+      toDate: 'Mar 2017',
+      subTitle: 'Freelancing',
+      infos: [
+        'Designed full application stuck from starch and revamped existing e-branching websites.',
+        'Build end-to-end user desktop application for store to manage grocery.',
+        "Also another desktop Application to keep track of book and it's borrowers.",
+        'Cloud based data migration project for association for there payroll data management.'
+      ]
     }
   ],
   EDUCATION: [
