@@ -1,9 +1,16 @@
 @import '../../styles/variable';
 
-.header {
+.section-title {
   font-weight: bold;
   font-size: $header-size;
   border-top: $header-border;
   border-bottom: $header-border;
   color: $header-color;
+
+  &.side-bar-title {
+    color: $white-color;
+    background-color: $side-bar-title;
+    font-size: 20px;
+    border: none;
+  }
 }

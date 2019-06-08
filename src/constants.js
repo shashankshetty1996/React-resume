@@ -76,7 +76,45 @@ const constant = {
       fromDate: 'Jun 2009',
       toDate: 'Mar 2012'
     }
-  ]
+  ],
+  PERSONAL: {
+    HEADER: {
+      NAME: 'Shashank S Shetty',
+      ROLE: 'UI/UX Software Developer'
+    },
+    INFO: [
+      {
+        label: 'Contact Number',
+        type: 'number',
+        value: '+91 9481752839'
+      },
+      {
+        label: 'Current Address',
+        type: 'string',
+        value: 'new one ill add here'
+      },
+      {
+        label: 'Email ID',
+        type: 'email',
+        value: 'shashankshetty1996@gmail.com'
+      },
+      {
+        label: 'Date of Birth',
+        type: 'string',
+        value: 'August 26 1996'
+      },
+      {
+        label: 'Website',
+        type: 'link',
+        value: 'https://shashankshetty1996.github.io'
+      },
+      {
+        label: 'Github',
+        type: 'link',
+        value: 'https://www.github.com/shashankshetty1996'
+      }
+    ]
+  }
 };
 
 export default constant;

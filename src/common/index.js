@@ -1,4 +1,5 @@
+import ContentBlock from './ContentBlock/ContentBlock';
 import DateInfo from './DateInfo/DateInfo';
-import Header from './Header/Header';
+import SectionTitle from './SectionTitle/SectionTitle';
 
-export { DateInfo, Header };
+export { ContentBlock, DateInfo, SectionTitle };
