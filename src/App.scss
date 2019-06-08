@@ -1,6 +1,5 @@
 @import './styles/main';
 
-// A4 sheet size
 .App {
   display: flex;
   min-height: 100vh;
@@ -9,7 +8,7 @@
   .side-bar {
     display: inline-block;
     width: 20%;
-    background-color: $header-color;
+    background-color: $side-bar;
     color: $white-color;
   }
 
