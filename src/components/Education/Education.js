@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { DateInfo, Header } from '../../common';
+import { DateInfo, SectionTitle } from '../../common';
 
 import CONSTANTS from '../../constants';
 
@@ -8,7 +8,7 @@ const Education = () => {
   const { EDUCATION } = CONSTANTS;
   return (
     <section className="my-2">
-      <Header title="Education" />
+      <SectionTitle title="Education" />
       {EDUCATION.map(experience => (
         <DateInfo
           key={experience.id}
