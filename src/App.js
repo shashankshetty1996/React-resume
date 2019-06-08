@@ -10,6 +10,7 @@ import {
   Experience,
   Header,
   PersonalInfo,
+  Skills,
   Summary
 } from './components';
 
@@ -23,6 +24,7 @@ const App = () => {
       <SideBar className="side-bar">
         <Header />
         <PersonalInfo />
+        <Skills />
       </SideBar>
       <MainContent className="main-contain p-1">
         <Summary />
