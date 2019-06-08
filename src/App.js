@@ -5,12 +5,25 @@ import './App.scss';
 import SideBar from './layout/SideBar/SideBar';
 import MainContent from './layout/MainContent/MainContent';
 
-import { Education, Experience, Summary } from './components';
+import {
+  Education,
+  Experience,
+  Header,
+  PersonalInfo,
+  Summary
+} from './components';
 
 const App = () => {
+  let classNames = 'App row';
+  if (window.location.pathname !== '/') {
+    classNames = classNames + ' A4';
+  }
   return (
-    <div className="App row">
-      <SideBar className="side-bar p-1">Side bar</SideBar>
+    <div className={classNames}>
+      <SideBar className="side-bar">
+        <Header />
+        <PersonalInfo />
+      </SideBar>
       <MainContent className="main-contain p-1">
         <Summary />
         <Experience />

@@ -1,0 +1,13 @@
+@import '../../styles/variable';
+
+.header {
+  .name {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .role {
+    font-size: 18px;
+    font-weight: 100;
+    color: $grey;
+  }
+}
