@@ -146,6 +146,18 @@ const constant = {
       type: 'string',
       value: 'Git, Docker, Jenkins (Basic), AWS (Basic concept for deployment)'
     }
+  ],
+  AWARDS: [
+    {
+      label: 'Y Media Labs',
+      type: 'string',
+      value: 'Shining Star Award, November 2018'
+    },
+    {
+      label: 'Finite Loop',
+      type: 'string',
+      value: 'All Rounder Performer of the year, 2017'
+    }
   ]
 };
 
