@@ -1,14 +1,22 @@
 import React from 'react';
 
-import { SectionTitle } from '../../common';
+import { ContentBlock, SectionTitle } from '../../common';
+
+import CONSTANTS from '../../constants';
 
 import './Skills.scss';
 
 const Skills = () => {
+  const { SKILLS } = CONSTANTS;
   return (
-    <div className="skills">
+    <section className="skills">
       <SectionTitle title="Skills" fromSideBar />
-    </div>
+      <article>
+        {SKILLS.map((skill, index) => (
+          <ContentBlock key={index} data={skill} />
+        ))}
+      </article>
+    </section>
   );
 };
 

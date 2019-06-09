@@ -114,7 +114,41 @@ const constant = {
         value: 'https://www.github.com/shashankshetty1996'
       }
     ]
-  }
+  },
+  SKILLS: [
+    {
+      label: 'Primary Skills',
+      type: 'string',
+      value:
+        'React.js, Vue.js, Docker, Angular, Angular.js, Node.js, Express.js'
+    },
+    {
+      label: 'Secondary Skills',
+      type: 'string',
+      value:
+        'jQuery, Python, MySQL, MongoDB, Bootstrap 3, Bootstrap 4, Materialize css, Shell script, Svelte.js, GraphQL, Jenkins'
+    },
+    {
+      label: 'Basic Skills',
+      type: 'string',
+      value: 'HTML5, CSS3, JSON, Markdown, YAML'
+    },
+    {
+      label: 'Eco System library',
+      type: 'string',
+      value: 'Redux, Redux Saga, VueX, Vue resource, axios'
+    },
+    {
+      label: 'Preprocessor / Template Engine',
+      type: 'string',
+      value: 'SCSS, TypeScript, EJS, Handlebars'
+    },
+    {
+      label: 'DevOps & Cloud',
+      type: 'string',
+      value: 'Git, Docker, Jenkins (Basic), AWS (Basic concept for deployment)'
+    }
+  ]
 };
 
 export default constant;
