@@ -7,9 +7,9 @@ import './Header.scss';
 const Header = () => {
   const { NAME, ROLE } = CONSTANTS.PERSONAL.HEADER;
   return (
-    <div className="header p-1">
+    <div className="header m-1">
       <h1 className="name">{NAME}</h1>
-      <h4 className="role py-1">{ROLE}</h4>
+      <h4 className="role">{ROLE}</h4>
     </div>
   );
 };
