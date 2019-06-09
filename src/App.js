@@ -24,13 +24,15 @@ const App = () => {
   const {
     PERSONAL: { INFO },
     SKILLS,
-    AWARDS
+    AWARDS,
+    CERTIFICATION
   } = CONSTANTS;
 
   const SideBarList = [
     { id: 1, title: 'Personal Info', data: INFO },
     { id: 2, title: 'Skills', data: SKILLS },
-    { id: 3, title: 'Rewards And Recognition', data: AWARDS }
+    { id: 3, title: 'Rewards And Recognition', data: AWARDS },
+    { id: 4, title: 'Certification', data: CERTIFICATION }
   ];
 
   return (

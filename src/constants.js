@@ -2,7 +2,7 @@ const constant = {
   SUMMARY: [
     'Passionate <strong>Software developer with 3 Years experience</strong> having a flair for creating elegant solutions in the best efficient way.',
     'Worked on various tech stacks such as <strong>React, Vue, Angular, Node</strong> etc.',
-    'Developed <em>Admin portal, B2B Application, OAuth application, Event Registration portal, E-branding website and Smart Campus Application.</em>',
+    'Developed <em>Admin portal, B2B Application, OAuth application, Event registration and management portal, E-branding website and Smart Campus Application.</em>',
     'Passionate about <strong>Software Architecture, Resolving challenging problems, DevOps, Cloud computing</strong> and also showing interest towards contributor <strong>open source</strong>',
     'Regular attendee of <strong>web meetups</strong> and update with <strong>software trends</strong>'
   ],
@@ -157,6 +157,13 @@ const constant = {
       label: 'Finite Loop',
       type: 'string',
       value: 'All Rounder Performer of the year, 2017'
+    }
+  ],
+  CERTIFICATION: [
+    {
+      label: 'NPTEL',
+      type: 'string',
+      value: 'Modern Application Development'
     }
   ]
 };
