@@ -31,3 +31,12 @@
     }
   }
 }
+
+@media print {
+  @page {
+    margin: 4px 0;
+  }
+  .date-info {
+    page-break-inside: avoid;
+  }
+}

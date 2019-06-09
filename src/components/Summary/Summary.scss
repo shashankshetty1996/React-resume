@@ -1,5 +1,25 @@
 .summary {
-  line-height: 1.5;
+  font-size: .875rem;
+  line-height: 1rem;
   letter-spacing: 0.45px;
   text-align: justify;
+
+  .summary-list {
+    .summary-list-item {
+      margin: 1rem 0;
+      box-sizing: border-box;
+      &:first-child {
+        margin-top: 0;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    strong {
+      font-weight: bolder;
+    }
+    em {
+      font-style: italic;
+    }
+  }
 }
