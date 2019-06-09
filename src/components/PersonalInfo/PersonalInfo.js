@@ -11,7 +11,7 @@ const PersonalInfo = () => {
   return (
     <section className="personal-info">
       <SectionTitle title="Personal Info" fromSideBar />
-      <article className="px-1">
+      <article>
         {INFO.map((data, index) => (
           <ContentBlock key={index} data={data} />
         ))}
