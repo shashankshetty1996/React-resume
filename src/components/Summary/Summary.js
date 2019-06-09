@@ -4,12 +4,18 @@ import CONSTANTS from '../../constants';
 import './Summary.scss';
 
 const Header = () => {
-  const { TITLE, WORK, PLAN, FOLLOW_UP } = CONSTANTS.HEADER;
+  const { SUMMARY } = CONSTANTS;
   return (
     <header className="summary">
-      <p>
-        {TITLE} {WORK} {PLAN} {FOLLOW_UP}{' '}
-      </p>
+      <ul className="summary-list">
+        {SUMMARY.map((data, index) => (
+          <li
+            key={index}
+            className="summary-list-item"
+            dangerouslySetInnerHTML={{ __html: data }}
+          />
+        ))}
+      </ul>
     </header>
   );
 };

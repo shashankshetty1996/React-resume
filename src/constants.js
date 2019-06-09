@@ -1,13 +1,11 @@
 const constant = {
-  HEADER: {
-    TITLE:
-      'Passionate front end developer with a flair for creating elegant solutions in the best efficient way.',
-    WORK:
-      'Developed Admin portal, OAuth application, Event Registration portal, E-branding website and Smart Campus Application.',
-    PLAN:
-      'Passionate about Software Architecture, Resolving challenging problems, DevOps and Cloud computing.',
-    FOLLOW_UP: 'Regular attendee of web meetups and update with trends'
-  },
+  SUMMARY: [
+    'Passionate <strong>Software developer with 3 Years experience</strong> having a flair for creating elegant solutions in the best efficient way.',
+    'Worked on various tech stacks such as <strong>React, Vue, Angular, Node</strong> etc.',
+    'Developed <em>Admin portal, B2B Application, OAuth application, Event Registration portal, E-branding website and Smart Campus Application.</em>',
+    'Passionate about <strong>Software Architecture, Resolving challenging problems, DevOps, Cloud computing</strong> and also showing interest towards contributor <strong>open source</strong>',
+    'Regular attendee of <strong>web meetups</strong> and update with <strong>software trends</strong>'
+  ],
   EXPERIENCE: [
     {
       id: 1,
@@ -89,11 +87,6 @@ const constant = {
         value: '+91 9481752839'
       },
       {
-        label: 'Current Address',
-        type: 'string',
-        value: 'new one ill add here'
-      },
-      {
         label: 'Email ID',
         type: 'email',
         value: 'shashankshetty1996@gmail.com'
@@ -112,9 +105,48 @@ const constant = {
         label: 'Github',
         type: 'link',
         value: 'https://www.github.com/shashankshetty1996'
+      },
+      {
+        label: 'Current Address',
+        type: 'string',
+        value: 'new one ill add here'
       }
     ]
-  }
+  },
+  SKILLS: [
+    {
+      label: 'Primary Skills',
+      type: 'string',
+      value:
+        'React.js, Vue.js, Docker, Angular, Angular.js, Node.js, Express.js'
+    },
+    {
+      label: 'Secondary Skills',
+      type: 'string',
+      value:
+        'jQuery, Python, MySQL, MongoDB, Bootstrap 3, Bootstrap 4, Materialize css, Shell script, Svelte.js, GraphQL, Jenkins'
+    },
+    {
+      label: 'Basic Skills',
+      type: 'string',
+      value: 'HTML5, CSS3, JSON, Markdown, YAML'
+    },
+    {
+      label: 'Eco System library',
+      type: 'string',
+      value: 'Redux, Redux Saga, VueX, Vue resource, axios'
+    },
+    {
+      label: 'Preprocessor / Template Engine',
+      type: 'string',
+      value: 'SCSS, TypeScript, EJS, Handlebars'
+    },
+    {
+      label: 'DevOps & Cloud',
+      type: 'string',
+      value: 'Git, Docker, Jenkins (Basic), AWS (Basic concept for deployment)'
+    }
+  ]
 };
 
 export default constant;

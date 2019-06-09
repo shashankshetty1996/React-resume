@@ -26,7 +26,7 @@ const ContentBlock = props => {
   let content = getContent(value, type);
 
   return (
-    <div className="content-block py-1">
+    <div className="content-block p-1">
       <h6 className="content-label">{label}:</h6>
       <div className="content-value">{content}</div>
     </div>
