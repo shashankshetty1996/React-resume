@@ -1,10 +1,10 @@
 const constant = {
   SUMMARY: [
-    'Passionate <strong>Software developer with 3 Years experience</strong> having a flair for creating elegant solutions in the best efficient way.',
-    'Worked on various tech stacks such as <strong>React, Vue, Angular, Node</strong> etc.',
+    'Passionate <strong>software developer with 3 Years of experience</strong> having a flair for creating elegant solutions in the best efficient way.',
+    'Worked on various tech stacks such as <strong>React, Vue, Angular and Node.</strong>',
     'Developed <em>Admin portal, B2B Application, OAuth application, Event registration and management portal, E-branding website and Smart Campus Application.</em>',
-    'Passionate about <strong>Software Architecture, Resolving challenging problems, DevOps, Cloud computing</strong> and also showing interest towards contributor <strong>open source</strong>',
-    'Regular attendee of <strong>web meetups</strong> and update with <strong>software trends</strong>'
+    'Passionate about <strong>Software Architecture, DevOps and Cloud computing.</strong> Also have interest towards <strong>open source</strong> contributions and updating with latest software trends.',
+    'Regular attendee of <strong>web meetups and conferences.</strong>'
   ],
   EXPERIENCE: [
     {
@@ -14,14 +14,14 @@ const constant = {
       toDate: 'present',
       subTitle: 'Y Media Labs, Front end Developer.',
       infos: [
-        'Created dynamic page component rendering, based on a JSON object, I have rendered carousel, list view and table view in. Further more this separates it into catagories for rendering and also register functions for API calls based on scenario such as initial data fetch and pagination calls.',
-        'Customized dashboard has user preference option, which gets user back to the view which he/she was previously viewing. This implementation has significantly increased overall speed by a large margin, from about 3 minutes rendering to 3 to 5 second completely.',
+        'Created dynamic page component rendering, based on a JSON object, have worked on rendering carousel, list view and table view. Further more this separates it into catagories for rendering and also register functions for API calls based on scenario such as initial data fetch and pagination calls.',
+        'Customized dashboard has user preference option, which gets user back to the view which he/she was previously viewing. This implementation has significantly increased overall performance by a large margin, from 3 minutes to 3 second.',
         "Worked on admin portal which has private resource data, which are to be rendered based on user's accessability. For this application we have also implemented OAuth. Project is build on intensive use of storybook.",
         'Created E-Mail and PDF template for report generation, which has more intuitive representation of data, which users.',
         'Created and introduced firebase authentication, which increased delivery by 20%. Overall product has gained more then 120% traffic for the website.',
-        'Introduced and implemented docker based deployment and importance in Software development process.',
+        'Introduced and implemented docker based deployment in Software development process.',
         'Initiated project in Vue.js. which in turn forecasted future projects in Vue.js.',
-        'Trained co worker with react and redux concept in a span of one week.'
+        'Trained co workers in react and redux concepts.'
       ]
     },
     {
@@ -32,12 +32,12 @@ const constant = {
       subTitle: 'Finite Loop (Freelancing)',
       infos: [
         'Designed architecture and database modelling for projects such as smart campus, exam evaluation portal and fest registration portal.',
-        'Trained over 140+ students with various technology such as HTML, CSS, JavaScript, AngularJS, NodeJs, etc.',
-        'Developed application which could with stand heavy traffic for very low performing system. That had to currently handle more then 3000 concurrent user accessing shared data',
+        'Trained over 140+ students with various technologies such as HTML, CSS, JavaScript, AngularJS, NodeJs, etc.',
+        'Developed application which could withstand heavy traffic for very low performing system. That had to currently handle more then 3000 concurrent user accessing shared data',
         'Collaborated with very domain and expertise level co-worker to complete various task such as IoT, Agriculture domain, college administrator, retired bank official',
-        'Have solved various issue and security threat for various projects. Which helped product with there confidently data and prevention for external threats',
-        'Organized and participated in various event such as Introduction to web technology, Hands on session on Software life cycle using DevOps technologies.',
-        'Have lead client interaction for understanding use case and tried to understand potential significance purpose of the product and come up with optimize solution for it.'
+        'Have solved various security threat issues for projects which has helped products with confidential data and prevented external threats',
+        'Organized and participated in various events such as Introduction to web technology, Hands on session on Software life cycle using DevOps technologies.',
+        'Have lead many client interactive meetings for understanding use case of the product and come up with optimal solutions for it.'
       ]
     },
     {
@@ -47,10 +47,10 @@ const constant = {
       toDate: 'Mar 2017',
       subTitle: 'Freelancing',
       infos: [
-        'Designed full application stuck from starch and revamped existing e-branching websites.',
-        'Build end-to-end user desktop application for store to manage grocery. Which increased saving by 3 times and overall revenue by 2 times.',
-        "Also another desktop Application to keep track of book and it's borrowers. Which had capability of tracking down and searching throw 45,000+ records. This has saved months of work all together.",
-        'Cloud based data migration project for association for there payroll data management.'
+        'Designed full stack application from scratch and revamped existing e-branching websites.',
+        'Build end-to-end user desktop application for store to manage grocery. This increased saving by 3 times and overall revenue was doubled.',
+        "Developed a desktop application to keep track of books and it's borrowers. This product had capability of tracking down and searching through 45,000+ records. This has saved months of work all together.",
+        'Cloud based data migration project for association for payroll data management.'
       ]
     }
   ],
@@ -89,7 +89,7 @@ const constant = {
       {
         label: 'Email ID',
         type: 'email',
-        value: 'shashankshetty1996@gmail.com'
+        value: 'imshashanksshetty@gmail.com'
       },
       {
         label: 'Date of Birth',
@@ -100,6 +100,11 @@ const constant = {
         label: 'Website',
         type: 'link',
         value: 'https://shashankshetty1996.github.io'
+      },
+      {
+        label: 'Linked in',
+        type: 'link',
+        value: 'https://www.linkedin.com/in/shashankshetty1996'
       },
       {
         label: 'Github',
@@ -118,7 +123,7 @@ const constant = {
       label: 'Primary Skills',
       type: 'string',
       value:
-        'React.js, Vue.js, Docker, Angular, Angular.js, Node.js, Express.js'
+        'JavaScript, React.js, Vue.js, Docker, Angular, Angular.js, Node.js, Express.js'
     },
     {
       label: 'Secondary Skills',
@@ -144,7 +149,7 @@ const constant = {
     {
       label: 'DevOps & Cloud',
       type: 'string',
-      value: 'Git, Docker, Jenkins (Basic), AWS (Basic concept for deployment)'
+      value: 'Git, Docker, Exposed to Jenkins and AWS'
     }
   ],
   AWARDS: [

@@ -32,6 +32,18 @@
   }
 }
 
+@media only screen and (max-width: 595px) {
+  .App {
+    width: 100%;
+    .side-bar {
+      width: 30%;
+    }
+    .main-contain {
+      width: 70%;
+    }
+  }
+}
+
 @media print {
   @page {
     margin: 4px 0;
