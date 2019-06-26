@@ -78,7 +78,7 @@ const constant = {
   PERSONAL: {
     HEADER: {
       NAME: 'Shashank S Shetty',
-      ROLE: 'UI/UX Software Developer'
+      ROLE: 'Software Developer'
     },
     INFO: [
       {
@@ -114,7 +114,7 @@ const constant = {
       {
         label: 'Current Address',
         type: 'string',
-        value: 'new one ill add here'
+        value: '5th Phase, HAL 2nd Stage house number 2704, Kodihalli, Bengaluru'
       }
     ]
   },
@@ -153,6 +153,11 @@ const constant = {
     }
   ],
   AWARDS: [
+    {
+      label: 'Y Media Labs',
+      type: 'string',
+      value: 'Shining Star Award, May 2018'
+    },
     {
       label: 'Y Media Labs',
       type: 'string',
