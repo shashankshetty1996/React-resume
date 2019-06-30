@@ -1,6 +1,6 @@
 const constant = {
   SUMMARY: [
-    'Passionate <strong>software developer with 3 Years of experience</strong> having a flair for creating elegant solutions in the best efficient way.',
+    'Passionate <strong>software developer with 3 Years of experience</strong> (2 years freelancing and one year industrial) having a flair for creating elegant solutions in the best efficient way.',
     'Worked on various tech stacks such as <strong>React, Vue, Angular and Node.</strong>',
     'Developed <em>Admin portal, B2B Application, OAuth application, Event registration and management portal, E-branding website and Smart Campus Application.</em>',
     'Passionate about <strong>Software Architecture, DevOps and Cloud computing.</strong> Also have interest towards <strong>open source</strong> contributions and updating with latest software trends.',
@@ -156,7 +156,7 @@ const constant = {
     {
       label: 'Y Media Labs',
       type: 'string',
-      value: 'Shining Star Award, May 2018'
+      value: 'Shining Star Award, May 2019'
     },
     {
       label: 'Y Media Labs',
