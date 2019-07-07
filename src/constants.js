@@ -26,7 +26,7 @@ const constant = {
     },
     {
       id: 2,
-      title: 'Senior Event & Training Head and Tech Lead',
+      title: 'Senior Event & Training Manager and Team Lead',
       fromDate: 'Mar 2017',
       toDate: 'Jul 2018',
       subTitle: 'Finite Loop (Freelancing)',
