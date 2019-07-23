@@ -1,6 +1,6 @@
 const constant = {
   SUMMARY: [
-    'Passionate <strong>software developer with 3 Years of experience</strong> (2 years freelancing and one year industrial) having a flair for creating elegant solutions in the best efficient way.',
+    'Passionate <strong>software developer with 1+ Years of experience</strong> having a flair for creating elegant solutions in the best efficient way.',
     'Worked on various tech stacks such as <strong>React, Vue, Angular and Node.</strong>',
     'Developed <em>Admin portal, B2B Application, OAuth application, Event registration and management portal, E-branding website and Smart Campus Application.</em>',
     'Passionate about <strong>Software Architecture, DevOps and Cloud computing.</strong> Also have interest towards <strong>open source</strong> contributions and updating with latest software trends.',
@@ -15,7 +15,7 @@ const constant = {
       subTitle: 'Y Media Labs, Front end Developer.',
       infos: [
         'Created dynamic page component rendering, based on a JSON object, have worked on rendering carousel, list view and table view. Further more this separates it into catagories for rendering and also register functions for API calls based on scenario such as initial data fetch and pagination calls.',
-        'Customized dashboard has user preference option, which gets user back to the view which he/she was previously viewing. This implementation has significantly increased overall performance by a large margin, from 3 minutes to 3 second.',
+        'Customized dashboard has user preference option, which gets user back to the view which he/she was previously viewing. This implementation has significantly increased overall performance by a large margin, from 30 seconds to 3 seconds.',
         "Worked on admin portal which has private resource data, which are to be rendered based on user's accessability. For this application we have also implemented OAuth. Project is build on intensive use of storybook.",
         'Created E-Mail and PDF template for report generation, which has more intuitive representation of data, which users.',
         'Created and introduced firebase authentication, which increased delivery by 20%. Overall product has gained more then 120% traffic for the website.',
@@ -26,31 +26,14 @@ const constant = {
     },
     {
       id: 2,
-      title: 'Senior Event & Training Manager and Team Lead',
-      fromDate: 'Mar 2017',
+      title: 'Freelancer',
+      fromDate: 'May 2016',
       toDate: 'Jul 2018',
-      subTitle: 'Finite Loop (Freelancing)',
       infos: [
         'Designed architecture and database modelling for projects such as smart campus, exam evaluation portal and fest registration portal.',
-        'Trained over 140+ students with various technologies such as HTML, CSS, JavaScript, AngularJS, NodeJs, etc.',
-        'Developed application which could withstand heavy traffic for very low performing system. That had to currently handle more then 3000 concurrent user accessing shared data',
-        'Collaborated with very domain and expertise level co-worker to complete various task such as IoT, Agriculture domain, college administrator, retired bank official',
-        'Have solved various security threat issues for projects which has helped products with confidential data and prevented external threats',
-        'Organized and participated in various events such as Introduction to web technology, Hands on session on Software life cycle using DevOps technologies.',
-        'Have lead many client interactive meetings for understanding use case of the product and come up with optimal solutions for it.'
-      ]
-    },
-    {
-      id: 3,
-      title: 'Software Developer',
-      fromDate: 'May 2016',
-      toDate: 'Mar 2017',
-      subTitle: 'Freelancing',
-      infos: [
-        'Designed full stack application from scratch and revamped existing e-branching websites.',
-        'Build end-to-end user desktop application for store to manage grocery. This increased saving by 3 times and overall revenue was doubled.',
-        "Developed a desktop application to keep track of books and it's borrowers. This product had capability of tracking down and searching through 45,000+ records. This has saved months of work all together.",
-        'Cloud based data migration project for association for payroll data management.'
+        'Developed application which could withstand heavy traffic for very low performing system. That had to currently handle heavy load',
+        'Have mitigated various security threat issues for projects which has helped products with confidential data and prevented external threats',
+        'Designed full stack application from scratch and revamped existing e-branching websites.'
       ]
     }
   ],
@@ -114,7 +97,8 @@ const constant = {
       {
         label: 'Current Address',
         type: 'string',
-        value: '5th Phase, HAL 2nd Stage house number 2704, Kodihalli, Bengaluru'
+        value:
+          '5th Phase, HAL 2nd Stage house number 2704, Kodihalli, Bengaluru'
       }
     ]
   },
