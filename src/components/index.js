@@ -1,7 +1,6 @@
-import Education from './Education/Education';
-import Experience from './Experience/Experience';
-import Header from './Header/Header';
-import SideBarSection from './SideBarSection/SideBarSection';
-import Summary from './Summary/Summary';
-
-export { Education, Experience, Header, SideBarSection, Summary };
+export { default as Certification } from "./Certification/Certification";
+export { default as Education } from "./Education/Education";
+export { default as Experience } from "./Experience/Experience";
+export { default as Header } from "./Header/Header";
+export { default as SideBarSection } from "./SideBarSection/SideBarSection";
+export { default as Summary } from "./Summary/Summary";
