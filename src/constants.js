@@ -92,12 +92,17 @@ const constant = {
       {
         label: "Website",
         type: "link",
-        value: "https://shashankshetty1996.github.io",
+        value: "https://shashank-resume.netlify.app/",
       },
       {
         label: "Linked in",
         type: "link",
         value: "https://www.linkedin.com/in/shashankshetty1996",
+      },
+      {
+        label: "twitter",
+        type: "link",
+        value: "https://twitter.com/_shashankshetty",
       },
       {
         label: "Github",

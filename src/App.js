@@ -7,7 +7,6 @@ import MainContent from "./layout/MainContent/MainContent";
 
 import {
   Certification,
-  Education,
   Experience,
   Header,
   SideBarSection,
