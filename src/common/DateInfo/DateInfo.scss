@@ -1,4 +1,4 @@
-@import '../../styles/variable';
+@import "../../styles/variable";
 
 .date-info {
   display: flex;
@@ -28,13 +28,13 @@
   }
   .info-list-item {
     position: relative;
-    line-height: 21px;
+    line-height: 16px;
     text-align: justify;
     &:before {
-      content: '*';
+      content: "-";
       font-size: 28px;
       position: relative;
-      top: 10px;
+      top: 4px;
       left: $zero;
       padding-right: 5px;
       box-sizing: border-box;

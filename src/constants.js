@@ -24,9 +24,8 @@ const constant = {
         "Worked upon complete revamp of coupon pages, adding special closed group coupons type. With easier and interactive UI/UX, resulting 70% gain in conversion and more than 130% boost in creation of new type, reducing page load time by 2 sec to less than 1 sec and overall flow from 2 step to single view step.",
         "Created generic framework for coupons and it's variants flow, which will be dynamical created. With unique type along with creation, activation/deactivation, reactive and modify option baked in. Along with automated GTM integration and alert configuration.",
         "Worked on video upload and progress state, where hoteliers can upload property videos and moderate there video showcase to end users.",
-        "Mentored and supporting multiple team members from onboarding to extending supports to other teams.",
         "Managed and took ownership multiple modules such as Rate & Inventory for hoteliers, Coupon, Videos, Guest Rating and reviews, Price Recommendation.",
-        "Have been part planning architecture for all the running projects and working with Hybrid code base.",
+        "Have been part planning architecture for all the running projects and working with Hybrid code base. Along with mentored and supporting multiple team members from onboarding to extending supports to other teams.",
       ],
     },
     {
@@ -97,7 +96,7 @@ const constant = {
       {
         label: "Linked in",
         type: "link",
-        value: "https://www.linkedin.com/in/shashankshetty1996",
+        value: "https://www.linkedin.com/in/imshashanksshetty",
       },
       {
         label: "twitter",
@@ -182,11 +181,49 @@ const constant = {
   ],
   CERTIFICATION: [
     {
-      label: "NPTEL",
-      type: "string",
+      label: "Microservices with Node JS and React",
       value: "Modern Application Development",
     },
   ],
 };
+
+export const CERTIFICATION_PROVIDERS = {
+  UDEMY: "Udemy",
+  SUMO_LOGIC: "Sumo Logic",
+};
+
+export const CERTIFICATION = [
+  {
+    provider: CERTIFICATION_PROVIDERS.UDEMY,
+    title: "Microservices with Node JS and React",
+    issued_on: "Sep 2020",
+  },
+  {
+    provider: CERTIFICATION_PROVIDERS.UDEMY,
+    title: "Node JS: Advanced Concepts",
+    issued_on: "Jul 2020",
+  },
+  {
+    provider: CERTIFICATION_PROVIDERS.SUMO_LOGIC,
+    title: "Sumo Logic Fundamentals Certified",
+    issued_on: "Oct 2020",
+    expires_on: "Oct 2022",
+  },
+  {
+    provider: CERTIFICATION_PROVIDERS.UDEMY,
+    title: "Typescript: The Complete Developer's Guide",
+    issued_on: "Jul 2020",
+  },
+  {
+    provider: CERTIFICATION_PROVIDERS.UDEMY,
+    title: "Complete Guide to Protocol Buffers 3 [Java, Golang, Python]",
+    issued_on: "May 2020",
+  },
+  {
+    provider: CERTIFICATION_PROVIDERS.UDEMY,
+    title: "Go: The Complete Developer's Guide",
+    issued_on: "May 2020",
+  },
+];
 
 export default constant;
