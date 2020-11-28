@@ -111,6 +111,18 @@ const constant = {
           "5th Phase, HAL 2nd Stage house number 2704, Kodihalli, Bengaluru",
       },
     ],
+    EDUCATION: [
+      {
+        label: "NMAMIT, Nitte, karnataka",
+        type: "string",
+        value: "BE in Computer Science, Aug 2014 to May 2018",
+      },
+      {
+        label: "Mahesh PU College, Udupi, Karnataka",
+        type: "string",
+        value: "Computer Science, May 2014 to Jun 2012",
+      },
+    ],
   },
   SKILLS: [
     {

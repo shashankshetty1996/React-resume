@@ -23,7 +23,7 @@ const App = () => {
   }
 
   const {
-    PERSONAL: { INFO },
+    PERSONAL: { INFO, EDUCATION },
     SKILLS,
     AWARDS,
   } = CONSTANTS;
@@ -32,6 +32,7 @@ const App = () => {
     { id: 1, title: "Personal Info", data: INFO },
     { id: 2, title: "Skills", data: SKILLS },
     { id: 3, title: "Rewards And Recognition", data: AWARDS },
+    { id: 4, title: "Education", data: EDUCATION },
   ];
 
   return (
@@ -46,7 +47,6 @@ const App = () => {
         <Summary />
         <Experience />
         <Certification />
-        <Education />
       </MainContent>
     </div>
   );
