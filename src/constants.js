@@ -112,7 +112,7 @@ const constant = {
         "Hosted Dell Global Alliance Partner Summit at Delhi, Chennai and Bangalore.",
         "Face of Presales solution branding globally.",
         "Runner-up in Dell Women Cricket Tournament.",
-        "Part of Social Initiatives such as Women In Action and Ugly India.GoTripper of the month, August 2020",
+        "Part of Social Initiatives such as Women In Action and Ugly India.",
       ],
     },
   ],
