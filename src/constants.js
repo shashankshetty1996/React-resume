@@ -1,48 +1,30 @@
 const yearOfExperience = Math.abs(
-  new Date(Date.now() - new Date("08-06-2018").getTime()).getFullYear() - 1970
+  new Date(Date.now() - new Date("11-27-2017").getTime()).getFullYear() - 1970
 );
 
 const constant = {
   SUMMARY: [
-    `Passionate <strong>software developer with ${yearOfExperience} Years of experience</strong> having a flair for creating elegant solutions in the best efficient way.`,
-    "Worked on various tech stacks such as <strong>React, Vue, NodeJs, Docker, Angular, Typescript and GoLang.</strong>",
-    "Developed <em>Admin portal, B2B Extranet, OAuth application, Event registration and management portal</em>",
-    "Passionate about <strong>Software Architecture, Standardizing process across the application.</strong> Also have interest towards <strong>open source</strong> contributions and updating with latest software trends.",
-    "Regular attendee of <strong>web meetups and conferences.</strong> for upto date and keeping up with upcoming trends.",
+    `Experienced Remote Systems Engineer with more than ${yearOfExperience} years of success in IT (Hardware and SaaS) industry with focus in pre & post sales. Possessing deep technical acumen along with excellent communication and negotiation skills to close deals and drive sales achievements. Known for ability to support customers as technical advocate throughout entire sales process.`,
+    "As a Remote Systems Engineer, primary goal is ensuring that customers continually and increasingly receive value from the products. This is accomplished through initiative-taking, holistic, and organization-level approach that leverages technology and real-time visibility which warrants their full engagement and buy-in. Through this initiative-taking involvement that yields strategic value, the aim is to get established as a trusted advisor and customer advocate.",
   ],
   EXPERIENCE: [
     {
       id: 1,
-      title: "Software Engineer",
-      fromDate: "Oct 2019",
+      title: "Remote Systems Engineer",
+      fromDate: "Nov 2017",
       toDate: "present",
-      subTitle: "GoIbibo/MakeMyTrip, FullStack Developer",
+      subTitle: "Dell Technologies Presales Engineer",
       infos: [
-        "Implemented and standardized Components Design System for InGoMMT system, in house Components Design System on top of Material-UI using Storybook for ReactJS.",
-        "Have worked upon a Hybrid Application containing ReactJS as main shell, with extended support for legacy on going migration application running on Underscore.js template with jQuery and semi SSR with UI subsection rendered via Django templates.",
-        "Integrated and setup GraphQL client along with configuring existing utils such as global loader, error handling using custom react hooks.",
-        "Worked upon complete revamp of coupon pages, adding special closed group coupons type. With easier and interactive UI/UX, resulting 70% gain in conversion and more than 130% boost in creation of new type, reducing page load time by 2 sec to less than 1 sec and overall flow from 2 step to single view step.",
-        "Created generic framework for coupons and it's variants flow, which will be dynamical created. With unique type along with creation, activation/deactivation, reactive and modify option baked in. Along with automated GTM integration and alert configuration.",
-        "Worked on video upload and progress state, where hoteliers can upload property videos and moderate there video showcase to end users.",
-        "Managed and took ownership multiple modules such as Rate & Inventory for hoteliers, Coupon, Videos, Guest Rating and reviews, Price Recommendation.",
-        "Have been part planning architecture for all the running projects and working with Hybrid code base. Along with mentored and supporting multiple team members from onboarding to extending supports to other teams.",
-      ],
-    },
-    {
-      id: 2,
-      title: "Software Engineer",
-      fromDate: "Aug 2018",
-      toDate: "Sept 2019",
-      subTitle: "Y Media Labs, Front end Developer.",
-      infos: [
-        "Created dynamic page component rendering, based on a JSON object, have worked on rendering carousel, list view and table view. Further more this separates it into catagories for rendering and also register functions for API calls based on scenario such as initial data fetch and pagination calls.",
-        "Customized dashboard has user preference option, which gets user back to the view which he/she was previously viewing. This implementation has significantly increased overall performance by a large margin, from 30 seconds to 3 seconds.",
-        "Worked on admin portal which had private resource, which are to be rendered based on user's authorization. For this application we have also implemented OAuth and build on intensive use of storybook.",
-        "Created mail & PDF template for report generation, which had more intuitive representation of data.",
-        "Created and introduced firebase authentication, which increased delivery by 20%. Overall product has gained more then 120% traffic for the website.",
-        "Introduced and implemented docker based deployment in software development process.",
-        "Initiated project in Vue.js. which in turn forecasted future projects in Vue.js.",
-        "Trained co workers in react and redux concepts.",
+        "As highly motivated individual Enterprise Storage sales maker delivering a high standard of work to meet the required internal / external deadlines.",
+        "Worked as Remote Sales Engineer with field sales team based out of Florida and Chicago being part of complete DADD process and huge opportunities leading to revenue generation of 80M on total in FY21 and 36M in two quarters of FY22.",
+        "Performed technical Presales activities such as Demonstrations, presentations and RFPs to secure the technical/functional win for the business and to ensure growth of existing accounts.",
+        "Provided end to end solutions such as designing and sizing storage solutions, producing solution decks and proposals, building technical drawings, quotations and addressing Dell EMC product related queries.",
+        "Proactively monitoring the assets and conducting data collection and health check by logging in to customer array to analyze customer’s environment to get KPI’s and modeled solution to meet customer’s future needs. Also based on analysis coming up with tech refresh, upgrade and contract renewal opportunities.",
+        "Directly Aligned to field team based out of Federal and Central Canada covering regions like Toronto, Ottawa and Vancouver and deliver presales solution service for two quarter resulting multiple accolades from field.",
+        "SPOC for RMA process and Mentoring the whole team with process. Identifying the process of RMA (Return Material Authorization), dealing with escalations and managing the entire project along with constant interaction with stakeholders.",
+        "Worked as Project Manager for Central Trafficking Project which involved interaction with cross functional teams to move storage assets from one data center to another.",
+        "Responsible for hygienic account information by building Asset Dashboard of the account and keeping the Install Base Up to date and becoming the data masters of the account.",
+        "Hire, train, and mentor Associate sales engineer analyst resources and enable them as Remote system engineers.",
       ],
     },
   ],
@@ -50,69 +32,42 @@ const constant = {
     {
       id: 1,
       title: "N.M.A.M Institute of Technology, Nitte, karnataka",
-      fromDate: "Aug 2014",
-      toDate: "May 2018",
+      fromDate: "Aug 2013",
+      toDate: "May 2017",
       subTitle: "B.E in Computer Science",
-    },
-    {
-      id: 2,
-      title: "Mahesh PU College, Karnataka",
-      fromDate: "Jun 2012",
-      toDate: "May 2014",
-    },
-    {
-      id: 3,
-      title: "GM Vidyaniketan Public School, Karnataka",
-      fromDate: "Jun 2009",
-      toDate: "Mar 2012",
     },
   ],
   PERSONAL: {
     HEADER: {
-      NAME: "Shashank S Shetty",
-      ROLE: "Software Developer",
+      NAME: "Sushmitha Shetty",
+      ROLE: "Remote Systems Engineer",
     },
     INFO: [
       {
         label: "Contact Number",
         type: "number",
-        value: "+91 9481752839",
+        value: "+91 7760756508",
       },
       {
         label: "Email ID",
         type: "email",
-        value: "imshashanksshetty@gmail.com",
+        value: "sushshetty508@gmail.com",
       },
       {
         label: "Date of Birth",
         type: "string",
-        value: "August 26 1996",
-      },
-      {
-        label: "Website",
-        type: "link",
-        value: "https://shashank-resume.netlify.app/",
+        value: "June 19 1995",
       },
       {
         label: "Linked in",
         type: "link",
-        value: "https://www.linkedin.com/in/imshashanksshetty",
-      },
-      {
-        label: "twitter",
-        type: "link",
-        value: "https://twitter.com/_shashankshetty",
-      },
-      {
-        label: "Github",
-        type: "link",
-        value: "https://www.github.com/shashankshetty1996",
+        value: "https://www.linkedin.com/in/shettysushmitha19",
       },
       {
         label: "Current Address",
         type: "string",
         value:
-          "5th Phase, HAL 2nd Stage house number 2704, Kodihalli, Bengaluru",
+          "Shopsite 30/2 7th cross 2nd main Indiranagar stage 1, Bangalore Karnataka 560038",
       },
     ],
     EDUCATION: [
@@ -121,11 +76,6 @@ const constant = {
         type: "string",
         value: "BE in Computer Science, Aug 2014 to May 2018",
       },
-      {
-        label: "Mahesh PU College, Udupi, Karnataka",
-        type: "string",
-        value: "Computer Science, May 2014 to Jun 2012",
-      },
     ],
   },
   SKILLS: [
@@ -133,56 +83,37 @@ const constant = {
       label: "Primary Skills",
       type: "string",
       value:
-        "JavaScript, React.js, Vue.js, Docker, Typescript, Node.js, Express.js, GoLang, Angular.",
+        "Pre/ Post-sales support, Demonstration, Proposal Building, Assets Management - Customer Installbase Cleanup.",
     },
     {
       label: "Secondary Skills",
       type: "string",
       value:
-        "jQuery, Python, Bootstrap 4, Materialize css, Shell script, GraphQL.",
+        "Sales Management, Stake holder Collaboration, Technical Consulting, Project Management,",
     },
     {
-      label: "Basic Skills",
+      label: "Tech Skills",
       type: "string",
-      value: "HTML5, CSS3, JSON, Markdown, YAML.",
+      value: "Salesforce Tools, MS Word, MS Powerpoint, MS Excel. ",
     },
     {
-      label: "Eco System library",
+      label: "Soft Skills",
       type: "string",
-      value: "Redux, Redux Saga, VueX, Vue resource, axios.",
-    },
-    {
-      label: "Preprocessor / Template Engine",
-      type: "string",
-      value: "SCSS, TypeScript, EJS, Handlebars.",
-    },
-    {
-      label: "DevOps & Cloud",
-      type: "string",
-      value: "Git, Docker, Exposed to Jenkins and AWS.",
+      value: "Customer Relations, Presentation, Training and Mentoring, ",
     },
   ],
   AWARDS: [
     {
-      label: "GoIbibo/MakeMyTrip",
-      type: "string",
-      value: "GoTripper of the month, August 2020",
-    },
-    {
-      label: "Y Media Labs",
-      type: "string",
-      value: "Shining Star Award, May 2019",
-    },
-    {
-      label: "Y Media Labs",
-      type: "string",
-      value: "Shining Star Award, November 2018",
-    },
-  ],
-  CERTIFICATION: [
-    {
-      label: "Microservices with Node JS and React",
-      value: "Modern Application Development",
+      label: "",
+      type: "list",
+      value: [
+        "The FISH AWARD winner 2017 intake batch in Dellemc",
+        "Awards like Delight, Cheers and Bravo (Gold, Silver and Bronze respectively) for each quarter till date exemplifying Delivery Excellence, Exceptional Performance and innovation",
+        "Hosted Dell Global Alliance Partner Summit at Delhi, Chennai and Bangalore.",
+        "Face of Presales solution branding globally.",
+        "Runner-up in Dell Women Cricket Tournament.",
+        "Part of Social Initiatives such as Women In Action and Ugly India.GoTripper of the month, August 2020",
+      ],
     },
   ],
 };
@@ -190,39 +121,26 @@ const constant = {
 export const CERTIFICATION_PROVIDERS = {
   UDEMY: "Udemy",
   SUMO_LOGIC: "Sumo Logic",
+  DELL: "Dell Technologies",
 };
 
 export const CERTIFICATION = [
   {
-    provider: CERTIFICATION_PROVIDERS.UDEMY,
-    title: "Microservices with Node JS and React",
-    issued_on: "Sep 2020",
+    provider: CERTIFICATION_PROVIDERS.DELL,
+    title:
+      "Specialist – Implementation Engineer, PowerStore Solutions Version 1.0",
+    issued_on: "Jan 2021",
   },
   {
-    provider: CERTIFICATION_PROVIDERS.UDEMY,
-    title: "Node JS: Advanced Concepts",
-    issued_on: "Jul 2020",
+    provider: CERTIFICATION_PROVIDERS.DELL,
+    title:
+      "Specialist - Technology Architect, Midrange Storage Solutions Version 1.0",
+    issued_on: "Apr 2019",
   },
   {
-    provider: CERTIFICATION_PROVIDERS.SUMO_LOGIC,
-    title: "Sumo Logic Fundamentals Certified",
-    issued_on: "Oct 2020",
-    expires_on: "Oct 2022",
-  },
-  {
-    provider: CERTIFICATION_PROVIDERS.UDEMY,
-    title: "Typescript: The Complete Developer's Guide",
-    issued_on: "Jul 2020",
-  },
-  {
-    provider: CERTIFICATION_PROVIDERS.UDEMY,
-    title: "Complete Guide to Protocol Buffers 3 [Java, Golang, Python]",
-    issued_on: "May 2020",
-  },
-  {
-    provider: CERTIFICATION_PROVIDERS.UDEMY,
-    title: "Go: The Complete Developer's Guide",
-    issued_on: "May 2020",
+    provider: CERTIFICATION_PROVIDERS.DELL,
+    title: "Associate - Information Storage and Management Version 3.0",
+    issued_on: "Dec 2017",
   },
 ];
 

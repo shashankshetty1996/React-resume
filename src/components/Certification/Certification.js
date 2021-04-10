@@ -5,12 +5,14 @@ import { CERTIFICATION, CERTIFICATION_PROVIDERS } from "../../constants";
 
 import sumoLogo from "../../assets/sumologic.icon.jpeg";
 import udemyLogo from "../../assets/udemy.icon.jpeg";
+import dellLogo from "../../assets/dell.icon.jpeg";
 
 import "./Certification.scss";
 
 const imageLogoMap = {
   [CERTIFICATION_PROVIDERS.SUMO_LOGIC]: sumoLogo,
   [CERTIFICATION_PROVIDERS.UDEMY]: udemyLogo,
+  [CERTIFICATION_PROVIDERS.DELL]: dellLogo,
 };
 
 const Certification = (props) => {

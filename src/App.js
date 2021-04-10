@@ -42,7 +42,7 @@ const App = () => {
           <SideBarSection key={list.id} title={list.title} data={list.data} />
         ))}
       </SideBar>
-      <MainContent className="main-contain p-1">
+      <MainContent className="main-contain py-2 px-3">
         <Summary />
         <Experience />
         <Certification />
