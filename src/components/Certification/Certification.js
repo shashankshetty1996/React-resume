@@ -15,7 +15,11 @@ const imageLogoMap = {
   [CERTIFICATION_PROVIDERS.DELL]: dellLogo,
 };
 
-const Certification = (props) => {
+const Certification = () => {
+  if (CERTIFICATION.length === 0) {
+    return null;
+  }
+
   return (
     <section id="certification" className="my-2">
       <SectionTitle title="Certification" />

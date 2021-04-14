@@ -11,6 +11,7 @@ import {
   Header,
   SideBarSection,
   Summary,
+  RewardsAndRecognition,
 } from "./components";
 
 import CONSTANTS from "./constants";
@@ -25,27 +26,32 @@ const App = () => {
     PERSONAL: { INFO, EDUCATION },
     SKILLS,
     AWARDS,
+    CERTIFICATION,
   } = CONSTANTS;
 
+  const sideBarAwardsData = false ? AWARDS : undefined;
+
   const SideBarList = [
-    { id: 1, title: "Personal Info", data: INFO },
-    { id: 2, title: "Skills", data: SKILLS },
-    { id: 3, title: "Rewards And Recognition", data: AWARDS },
-    { id: 4, title: "Education", data: EDUCATION },
-  ];
+    { title: "Personal Info", data: INFO },
+    { title: "Skills", data: SKILLS },
+    { title: "Rewards And Recognition", data: sideBarAwardsData },
+    { title: "Certification", data: CERTIFICATION },
+    { title: "Education", data: EDUCATION },
+  ].filter((section) => section.data !== undefined);
 
   return (
     <div className={classNames}>
       <SideBar className="side-bar">
         <Header />
-        {SideBarList.map((list) => (
-          <SideBarSection key={list.id} title={list.title} data={list.data} />
+        {SideBarList.map((list, index) => (
+          <SideBarSection key={index} title={list.title} data={list.data} />
         ))}
       </SideBar>
       <MainContent className="main-contain px-3">
         <Summary />
         <Experience />
         <Certification />
+        <RewardsAndRecognition show={sideBarAwardsData === undefined} />
       </MainContent>
     </div>
   );

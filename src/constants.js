@@ -111,9 +111,24 @@ const constant = {
         "Awards like Delight, Cheers and Bravo (Gold, Silver and Bronze respectively) for each quarter till date exemplifying Delivery Excellence, Exceptional Performance and innovation",
         "Hosted Dell Global Alliance Partner Summit at Delhi, Chennai and Bangalore.",
         "Face of Presales solution branding globally.",
-        "Runner-up in Dell Women Cricket Tournament.",
         "Part of Social Initiatives such as Women In Action and Ugly India.",
       ],
+    },
+  ],
+  CERTIFICATION: [
+    {
+      type: "string",
+      value:
+        "Specialist – Implementation Engineer, PowerStore Solutions Version 1.0",
+    },
+    {
+      type: "string",
+      value:
+        "Specialist - Technology Architect, Midrange Storage Solutions Version 1.0",
+    },
+    {
+      type: "string",
+      value: "Associate - Information Storage and Management Version 3.0",
     },
   ],
 };
@@ -124,24 +139,26 @@ export const CERTIFICATION_PROVIDERS = {
   DELL: "Dell Technologies",
 };
 
-export const CERTIFICATION = [
-  {
-    provider: CERTIFICATION_PROVIDERS.DELL,
-    title:
-      "Specialist – Implementation Engineer, PowerStore Solutions Version 1.0",
-    issued_on: "Jan 2021",
-  },
-  {
-    provider: CERTIFICATION_PROVIDERS.DELL,
-    title:
-      "Specialist - Technology Architect, Midrange Storage Solutions Version 1.0",
-    issued_on: "Apr 2019",
-  },
-  {
-    provider: CERTIFICATION_PROVIDERS.DELL,
-    title: "Associate - Information Storage and Management Version 3.0",
-    issued_on: "Dec 2017",
-  },
-];
+export const CERTIFICATION = true
+  ? []
+  : [
+      {
+        provider: CERTIFICATION_PROVIDERS.DELL,
+        title:
+          "Specialist – Implementation Engineer, PowerStore Solutions Version 1.0",
+        issued_on: "Jan 2021",
+      },
+      {
+        provider: CERTIFICATION_PROVIDERS.DELL,
+        title:
+          "Specialist - Technology Architect, Midrange Storage Solutions Version 1.0",
+        issued_on: "Apr 2019",
+      },
+      {
+        provider: CERTIFICATION_PROVIDERS.DELL,
+        title: "Associate - Information Storage and Management Version 3.0",
+        issued_on: "Dec 2017",
+      },
+    ];
 
 export default constant;

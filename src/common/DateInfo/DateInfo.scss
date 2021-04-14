@@ -26,18 +26,14 @@
     line-height: 17px;
     margin: 2px $zero;
   }
+  .info-list {
+    padding-left: 16px;
+  }
   .info-list-item {
+    list-style-type: circle;
     position: relative;
     line-height: 16px;
     text-align: justify;
-    &:before {
-      content: "-";
-      font-size: 28px;
-      position: relative;
-      top: 4px;
-      left: $zero;
-      padding-right: 5px;
-      box-sizing: border-box;
-    }
+    margin: 16px 0;
   }
 }
