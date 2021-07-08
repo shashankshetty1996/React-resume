@@ -4,13 +4,15 @@ const yearOfExperience = Math.abs(
 
 const constant = {
   SUMMARY: [
-    `Experienced Remote Systems Engineer with more than ${yearOfExperience} years of success in IT (Hardware and SaaS) industry with focus in pre & post sales. Possessing deep technical acumen along with excellent communication and negotiation skills to close deals and drive sales achievements. Known for ability to support customers as technical advocate throughout entire sales process.`,
-    "As a Remote Systems Engineer, primary goal is ensuring that customers continually and increasingly receive value from the products. This is accomplished through initiative-taking, holistic, and organization-level approach that leverages technology and real-time visibility which warrants their full engagement and buy-in. Through this initiative-taking involvement that yields strategic value, the aim is to get established as a trusted advisor and customer advocate.",
+    `Experienced Remote Sales Engineer with ${
+      yearOfExperience + 1
+    } years of success in IT (Hardware and SaaS) industry with focus in pre & post sales. Possessing deep technical acumen along with excellent communication and negotiation skills to close deals and drive sales achievements. Known for ability to support customers as technical advocate throughout entire sales process.`,
+    "As a Remote Sales Engineer, primary goal is ensuring that customers continually and increasingly receive value from the products. This is accomplished through initiative-taking, holistic, and organization-level approach that leverages technology and real-time visibility which warrants their full engagement and buy-in. Through this initiative-taking involvement that yields strategic value, the aim is to get established as a trusted advisor and customer advocate.",
   ],
   EXPERIENCE: [
     {
       id: 1,
-      title: "Remote Systems Engineer",
+      title: "Remote Sales Engineer",
       fromDate: "Nov 2017",
       toDate: "present",
       subTitle: "Dell Technologies Presales Engineer",
@@ -25,6 +27,14 @@ const constant = {
         "Worked as Project Manager for Central Trafficking Project which involved interaction with cross functional teams to move storage assets from one data center to another.",
         "Responsible for hygienic account information by building Asset Dashboard of the account and keeping the Install Base Up to date and becoming the data masters of the account.",
         "Hire, train, and mentor Associate sales engineer analyst resources and enable them as Remote system engineers.",
+        "Team lead for a group of 35 associates – Experience in Onboarding associates, Training in various technologies, Products and services. Based on assessments deploying the associates in various verticals and projects and tracking their performance.",
+        "Working across the all product consultation flow/Sales Flow",
+        [
+          "__STRONG__Discover__STRONG_END__ - Asset Dashboard Creation and Asset Management, Install base clean Up. Whiteboarding Sessions, Creating tech Profile, IT Atlas, Lead Analysis (Green field and brown field), Opportunity Tracking",
+          "__STRONG__Analyze__STRONG_END__ - Environment discussion, Create Tech Assessment, Live optics offering, Data Collection Summary, RPF, Encompass",
+          "__STRONG__Design__STRONG_END__ - Configure Solutions, Create Tech Print, Proposals (Sizing, Quoting, Power Calculations, Rack Elevation), Competitive Assessment",
+          "__STRONG__Defend__STRONG_END__ - Product Demonstration, Competitive Intelligence, Proof of Concept and Request for Product qualification",
+        ],
       ],
     },
   ],

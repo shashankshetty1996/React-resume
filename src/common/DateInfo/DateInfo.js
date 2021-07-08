@@ -1,9 +1,37 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import './DateInfo.scss';
+import { Decorator } from "../../common";
 
-const DateInfo = props => {
+import "./DateInfo.scss";
+
+const RenderLi = ({ info }) => {
+  if (Array.isArray(info)) {
+    return (
+      <ul className="info-list">
+        {info.map((text, index) => (
+          <li className="info-list-item" key={index}>
+            <Decorator text={text} />
+          </li>
+        ))}
+      </ul>
+    );
+  }
+  return (
+    <li className="info-list-item">
+      <Decorator text={info} />
+    </li>
+  );
+};
+
+RenderLi.propTypes = {
+  info: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.arrayOf(PropTypes.string),
+  ]),
+};
+
+const DateInfo = (props) => {
   const { fromDate, toDate, title, subTitle, infos } = props;
   return (
     <article className="date-info row py-1">
@@ -14,12 +42,10 @@ const DateInfo = props => {
       </div>
       <div className="info-section">
         <h1 className="title">{title}</h1>
-        {subTitle !== '' && <h4 className="sub-title">{subTitle}</h4>}
+        {subTitle !== "" && <h4 className="sub-title">{subTitle}</h4>}
         <ul className="info-list">
           {infos.map((info, index) => (
-            <li className="info-list-item" key={index}>
-              {info}
-            </li>
+            <RenderLi info={info} />
           ))}
         </ul>
       </div>
@@ -28,8 +54,8 @@ const DateInfo = props => {
 };
 
 DateInfo.defaultProps = {
-  subTitle: '',
-  infos: []
+  subTitle: "",
+  infos: [],
 };
 
 DateInfo.propTypes = {
@@ -37,7 +63,9 @@ DateInfo.propTypes = {
   toDate: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   subTitle: PropTypes.string,
-  infos: PropTypes.array
+  infos: PropTypes.arrayOf(
+    PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)])
+  ),
 };
 
 export default DateInfo;
