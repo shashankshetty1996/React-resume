@@ -84,7 +84,7 @@ const constant = {
       {
         label: "NMAMIT, Nitte, karnataka",
         type: "string",
-        value: "BE in Computer Science, Aug 2014 to May 2018",
+        value: "BE in Computer Science, Aug 2013 to May 2017",
       },
     ],
   },
