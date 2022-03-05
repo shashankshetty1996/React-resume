@@ -1,24 +1,24 @@
 .summary {
-  font-size: 12px;
-  letter-spacing: 0.45px;
-  text-align: justify;
+	font-size: 12px;
+	letter-spacing: 0.45px;
+	text-align: justify;
 
-  .summary-list {
-    .summary-list-item {
-      margin: 8px 0;
-      box-sizing: border-box;
-      &:first-child {
-        margin-top: 0;
-      }
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-    strong {
-      font-weight: bolder;
-    }
-    em {
-      font-style: italic;
-    }
-  }
+	.summary-list {
+		.summary-list-item {
+			margin: 4px 0;
+			box-sizing: border-box;
+			&:first-child {
+				margin-top: 0;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+		strong {
+			font-weight: bolder;
+		}
+		em {
+			font-style: italic;
+		}
+	}
 }
